@@ -1,0 +1,20 @@
+[* this is comment for this sample code which
+   add sums *]
+
+$$
+[* declarations *]
+int       i;
+int      max;
+int      sum;   
+
+[* statements *]
+sum = 0;
+i = 1;
+get ( max);
+while (i <  max)  {
+    sum = sum + i;
+    i  =i + 1; 
+}
+sum = sum + max;
+put (sum);
+$$
